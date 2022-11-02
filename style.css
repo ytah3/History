@@ -1,0 +1,168 @@
+*{
+    font-family: 'Island Moments', cursive;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.header{
+    background-color: rgb(255, 224, 111);
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.header img{
+    
+    height: 80%;
+    width: 100px;
+    border-radius: 10px ;
+    border: 2px solid #ffffff;
+    
+    margin: 30px;
+
+}
+
+
+
+.menu{
+    background-color: rgb(46, 0, 0);
+    width: 100%;
+    display: flex;
+    
+}
+
+.menu ul,li{
+    margin: 0;
+    padding: 0;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+ }
+
+.menu li{
+    
+    width: auto;
+}
+
+.menu a{
+    background-color: rgb(126, 126, 126);
+    color: #000000;
+    border: 1px solid #ffffff;
+    display: block;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 13px sans-serif;
+}
+
+.menu li:hover a{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 1px solid #000000;
+    
+}
+
+ 
+
+.main{
+    background-color: rgb(255, 220, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.content{
+    background-color: rgb(91, 91, 91);
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .post{
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #535353a1;
+}
+
+.content .post img{
+    display: flex;
+    width: 30%;
+    height: auto;
+}
+
+.content .post .text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.content .post .text a{
+    color: rgb(51, 0, 0);
+}
+
+
+
+
+.sidebar{
+    background-color: rgb(255, 169, 130);
+    flex: 40%;
+   
+}
+
+
+.karusel{
+    background-color: rgb(169, 255, 226);
+    width: 100%;
+}
+
+.footer{
+    background-color: rgb(255, 229, 133);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TEXTS{
+    display: flex;
+    flex:60%;
+}
+
+.footer img{
+   width: 300px;
+   height: 300px;
+   margin: 10px;
+   border-radius: 10px;
+   border: solid 2px #000000;
+}
+
+.TEXTS .text{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #faff6aa7;
+}
+
+
+
+
